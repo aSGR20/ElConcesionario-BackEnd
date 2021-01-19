@@ -44,7 +44,11 @@ namespace ElConcesionario
 
             //Aquí las inyecciones: Interfaz - Clase
             services.AddScoped<IUsuarioBL, UsuarioBL>();
+            services.AddScoped<IVehiculoBL, VehiculoBL>();
+            services.AddScoped<IVentaBL, VentaBL>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IVehiculoRepository, VehiculoRepository>();
+            services.AddScoped<IVentaRepository, VentaRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
