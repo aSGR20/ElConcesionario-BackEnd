@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>ElConcesionario</AssemblyName>
+    <RootNamespace>ElConcesionario</RootNamespace>
+    <PackageId>ElConcesionario</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElConcesionario.BL\ElConcesionario.BL.csproj" />
+    <ProjectReference Include="..\ElConcesionario.Core\ElConcesionario.Core.csproj" />
+    <ProjectReference Include="..\ElConcesionario.DAL\ElConcesionario.DAL.csproj" />
+  </ItemGroup>
+
+
+</Project>
