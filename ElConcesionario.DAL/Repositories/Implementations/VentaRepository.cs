@@ -23,10 +23,9 @@ namespace ElConcesionario.DAL.Repositories.Implementations
             {
                 // MODIFICAR ESTO CON LA CLAVE FORÁNEA
                 NumSerial = ventaDTO.NumSerie,
-                DniCliente = ventaDTO.Modelo,
-                DniUsuario = ventaDTO.Marca,
-                // = ventaDTO.Tipo,
-                Beneficios = ventaDTO.Precio,
+                DniCliente = ventaDTO.DNICliente,
+                DniUsuario = ventaDTO.DNIUsuario,
+                Beneficios = ventaDTO.Beneficios,
                 Plazo = ventaDTO.Plazo,
                 Fecha = ventaDTO.Fecha
             };
@@ -46,10 +45,9 @@ namespace ElConcesionario.DAL.Repositories.Implementations
                 {
                     // MODIFICAR ESTO CON LA CLAVE FORÁNEA
                     NumSerie = i.NumSerial,
-                    Modelo = i.DniCliente,
-                    Marca = i.DniUsuario,
-                    //Tipo = i.Tipo,
-                    Precio = i.Beneficios,
+                    DNICliente = i.DniCliente,
+                    DNIUsuario = i.DniUsuario,
+                    Beneficios = i.Beneficios,
                     Plazo = i.Plazo,
                     Fecha = i.Fecha
                 };

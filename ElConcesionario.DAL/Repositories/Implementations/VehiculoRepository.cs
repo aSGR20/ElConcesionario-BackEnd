@@ -27,6 +27,7 @@ namespace ElConcesionario.DAL.Repositories.Implementations
                 Tipo = vehiculoDTO.Tipo,
                 Precio = vehiculoDTO.Precio,
                 FechaEntrada = vehiculoDTO.FechaEntrada,
+                InfAdicional = vehiculoDTO.InfAdicional
             };
             _context.Vehículo.Add(vehiculo);
             _context.SaveChanges();
@@ -47,7 +48,8 @@ namespace ElConcesionario.DAL.Repositories.Implementations
                     Marca = i.Marca,
                     Tipo = i.Tipo,
                     Precio = i.Precio,
-                    FechaEntrada = i.FechaEntrada
+                    FechaEntrada = i.FechaEntrada,
+                    InfAdicional = i.InfAdicional
                 };
                 vehiculosDTO.Add(vehiculo);
             }

@@ -10,6 +10,7 @@ namespace ElConcesionario.Core.DTO
         public string Tipo { get; set; }
         public int Precio { get; set; }
         public string FechaEntrada { get; set; }
+        public string InfAdicional { get; set; }
 
         public VehiculoDTO()
         {
