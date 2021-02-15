@@ -8,9 +8,6 @@ using System.Threading.Tasks;
 
 namespace ElConcesionario.Controllers
 {
-    /*
-     * MIRAR VentaRepository.cs
-     */
     [ApiController]
     [Route("[controller]")]
     public class VentaController : ControllerBase

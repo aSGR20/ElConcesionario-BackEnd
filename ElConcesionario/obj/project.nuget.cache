@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7toUVs61YDb/waDJQIc2OMsHQsuNNN+xl33ZG+ClO9faP/YITM22p4zFvrBPC9UNSVmY0kqUG9ac0Wjspol9tA==",
+  "dgSpecHash": "vGMTYe504mfw6usF/179gdeEVnPenCJbGybjTtZZqOR/eTBFgTbnXY5v0yD5OPfO0XARTm7qPZqK6cbMK+qQCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebas\\source\\repos\\ElConcesionario\\ElConcesionario\\ElConcesionario.API.csproj",
+  "projectFilePath": "C:\\Users\\sebas\\source\\repos\\ElConcesionario\\ElConcesionario\\ElConcesionario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebas\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\sebas\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

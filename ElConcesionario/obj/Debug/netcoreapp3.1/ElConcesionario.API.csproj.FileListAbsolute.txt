@@ -62,3 +62,4 @@ C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario\bin\Debug\netcoreapp
 C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario\bin\Debug\netcoreapp3.1\appsettings.QA.json

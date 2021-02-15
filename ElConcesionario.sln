@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElConcesionario.API", "ElConcesionario\ElConcesionario.API.csproj", "{E0CEF573-B348-4357-9463-599BC9A2CE61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElConcesionario", "ElConcesionario\ElConcesionario.csproj", "{E0CEF573-B348-4357-9463-599BC9A2CE61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElConcesionario.BL", "ElConcesionario.BL\ElConcesionario.BL.csproj", "{F43587D8-0AFE-46C3-B4EA-8DE77177E8FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElConcesionario.BL", "ElConcesionario.BL\ElConcesionario.BL.csproj", "{F43587D8-0AFE-46C3-B4EA-8DE77177E8FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElConcesionario.Core", "ElConcesionario.Core\ElConcesionario.Core.csproj", "{B5F3120F-891B-4F3B-8D55-2AFB240DEA90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElConcesionario.Core", "ElConcesionario.Core\ElConcesionario.Core.csproj", "{B5F3120F-891B-4F3B-8D55-2AFB240DEA90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElConcesionario.DAL", "ElConcesionario.DAL\ElConcesionario.DAL.csproj", "{38EE9BAC-7F33-4D0A-B6C7-29EBC7125093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElConcesionario.DAL", "ElConcesionario.DAL\ElConcesionario.DAL.csproj", "{38EE9BAC-7F33-4D0A-B6C7-29EBC7125093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElConcesionario.IntegrationTests", "ElConcesionario.IntegrationTests\ElConcesionario.IntegrationTests.csproj", "{63921AAB-9111-44FA-89D1-571186E07B40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{38EE9BAC-7F33-4D0A-B6C7-29EBC7125093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38EE9BAC-7F33-4D0A-B6C7-29EBC7125093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38EE9BAC-7F33-4D0A-B6C7-29EBC7125093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63921AAB-9111-44FA-89D1-571186E07B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63921AAB-9111-44FA-89D1-571186E07B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63921AAB-9111-44FA-89D1-571186E07B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63921AAB-9111-44FA-89D1-571186E07B40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
