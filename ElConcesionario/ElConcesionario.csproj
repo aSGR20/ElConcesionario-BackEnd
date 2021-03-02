@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ElConcesionario.BL\ElConcesionario.BL.csproj" />
     <ProjectReference Include="..\ElConcesionario.Core\ElConcesionario.Core.csproj" />
     <ProjectReference Include="..\ElConcesionario.DAL\ElConcesionario.DAL.csproj" />

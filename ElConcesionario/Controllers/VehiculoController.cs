@@ -14,19 +14,19 @@ namespace ElConcesionario.Controllers
     {
         public IVehiculoBL _vehiculoBL { get; set; }
 
-        public VehiculoController (IVehiculoBL vehiculoBL)
+        protected VehiculoController (IVehiculoBL vehiculoBL)
         {
             _vehiculoBL = vehiculoBL;
         }
 
         [HttpPost]
-        public ActionResult<bool> Add(VehiculoDTO vehiculoDTO)
+        protected ActionResult<bool> Add(VehiculoDTO vehiculoDTO)
         {
             _vehiculoBL.Add(vehiculoDTO);
             return Ok(true);
         }
 
-        public ActionResult<IEnumerable<VehiculoDTO>> Get()
+        protected ActionResult<IEnumerable<VehiculoDTO>> Get()
         {
             return Ok(_vehiculoBL.Get());
         }

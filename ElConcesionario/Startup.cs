@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using System;
 
 namespace ElConcesionario
@@ -29,6 +30,7 @@ namespace ElConcesionario
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            AddSwagger(services);
 
             //Para habilitar CORS en nuestra API
             services.AddCors(options =>
@@ -61,6 +63,12 @@ namespace ElConcesionario
 
             app.UseHttpsRedirection();
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Foo API V1");
+            });
+
             app.UseRouting();
 
             app.UseAuthorization();
@@ -70,6 +78,26 @@ namespace ElConcesionario
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+        }
+        private void AddSwagger(IServiceCollection services)
+        {
+            services.AddSwaggerGen(options =>
+            {
+                var groupName = "v1";
+
+                options.SwaggerDoc(groupName, new OpenApiInfo
+                {
+                    Title = $"Foo {groupName}",
+                    Version = groupName,
+                    Description = "Foo Api",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Foo Company",
+                        Email = string.Empty,
+                        Url = new Uri("https://foo.com"),
+                    }
+                });
             });
         }
     }

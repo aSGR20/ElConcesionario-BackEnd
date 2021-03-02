@@ -14,19 +14,19 @@ namespace ElConcesionario.Controllers
     {
         public IVentaBL _ventaBL { get; set; }
 
-        public VentaController(IVentaBL ventaBL)
+        protected VentaController(IVentaBL ventaBL)
         {
             _ventaBL = ventaBL;
         }
 
         [HttpPost]
-        public ActionResult<bool> Add(VentaDTO ventaDTO)
+        protected ActionResult<bool> Add(VentaDTO ventaDTO)
         {
             _ventaBL.Add(ventaDTO);
             return Ok(true);
         }
 
-        public ActionResult<IEnumerable<VentaDTO>> Get()
+        protected ActionResult<IEnumerable<VentaDTO>> Get()
         {
             return Ok(_ventaBL.Get());
         }

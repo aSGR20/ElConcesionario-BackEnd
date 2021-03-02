@@ -11,3 +11,16 @@ C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario.Core\obj\Debug\netco
 C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.RazorTargetAssemblyInfo.cache
 C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.dll
 C:\Users\sebas\source\repos\ElConcesionario\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.pdb
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\bin\Debug\netcoreapp3.1\ElConcesionario.Core.deps.json
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\bin\Debug\netcoreapp3.1\ElConcesionario.Core.dll
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\bin\Debug\netcoreapp3.1\ElConcesionario.Core.pdb
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.csprojAssemblyReference.cache
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.AssemblyInfoInputs.cache
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.AssemblyInfo.cs
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.csproj.CoreCompileInputs.cache
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\staticwebassets\ElConcesionario.Core.StaticWebAssets.Manifest.cache
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\staticwebassets\ElConcesionario.Core.StaticWebAssets.xml
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\scopedcss\bundle\ElConcesionario.Core.styles.css
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.RazorTargetAssemblyInfo.cache
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.dll
+C:\Users\cbas\Source\Repos\aSGR20\ElConcesionario-BackEnd\ElConcesionario.Core\obj\Debug\netcoreapp3.1\ElConcesionario.Core.pdb
